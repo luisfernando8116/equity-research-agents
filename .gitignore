@@ -1,0 +1,20 @@
+# ── Personal data — never commit ─────────────────────────────────────────────
+profiles_local.py
+portfolio_state_*.json
+target_weights_export.json
+# Contains personal examples from early development; to be rewritten generically
+ANALYSIS_METHODOLOGY.md
+
+# ── Generated output ─────────────────────────────────────────────────────────
+outputs/
+stock_analysis_*.html
+*.log
+
+# ── Caches (rebuilt automatically) ───────────────────────────────────────────
+.yf_cache/
+.yf_attr_cache/
+.sec_cache/
+kg_data/
+__pycache__/
+.pytest_cache/
+*.pyc
